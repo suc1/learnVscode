@@ -59,7 +59,7 @@ int main() {
             r_in << 0.0225, 0.0,
                     0.0,    0.0225;
             kf.SetR(r_in);
-            //continue????
+            continue;
         }
 
         double dt = now_timestamp - last_timestamp;
